@@ -2,10 +2,7 @@
    "manifest_version":2,
    "name":"StartupGoogle",
    "version":"0.1",
-   "description":"Goes to google.com on startup and on new tabs!",
-   "chrome_url_overrides":{
-   "newtab":"gotogoogle.html"
-   },
+   "description":"Goes to google.com on browser startup!",
    "content_scripts":[
       {
          "matches":[
